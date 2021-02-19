@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Задание для тензора</title>
+	<h1>Задание для <img src="images/logo2.png" title="Тензор лого" alt="Тензор лого" class="logo"></h1>
+ </head>
+ <body>
+	<div class="job">
+		<h1>Задача</h1>
+		Необходимо «оживить», т.е. отобразить графически процесс сортировки пузырьком целых чисел, чтобы пользователь мог воочию наблюдать как сортируются данные. <br>
+		Страничка также должна уметь генерировать себе наборы данных для сортировки и показывать их до и после сортировки.<br>
+		На странице обязательно написать инструкцию как ей пользоваться.
+		Использование библиотек никак не ограничивается. <br>
+		Результатом должна быть html страница с JavaScript (или TypeScript), CSS, картинками, открыв которую в браузере можно будет выполнять описанный сценарий. 
+		Крайне желательно организовать html, js , css код по разным файлам. <br>
+		В js коде организовать работу с классами и оставить комментарии поясняющие что делается и зачем.
+		<h1>Требования</h1>
+		<ol>
+		 <li>Отсутствие ошибок, результат четко соответствует заданию. </li>
+		 <li>Отсутствует дублирующийся код.</li>
+		 <li>Краткость кода: чем меньше действий, тем лучше.</li>
+		 <li>Читабельность кода – осмысленные названия переменных, методов и классов.</li>
+		 <li>Структурированность кода -  Форматирование отступы 3 символа.</li>
+		 <li>Понятность – наличие комментариев и пояснения в форме как этим пользоваться.</li>
+		 <li>Красивый внешний вид. Чем больше анимации, чем плавнее движения на экране, чем логичнее построен  процесс – тем лучше.</li>
+		</ol>
+	</div>
+	<div class="instruction">
+		<h1>Инструкция</h1>
+		Что бы сгенерировать и отсортировать массив нужно выполнить сделать следующие действия: 
+		<ol>
+		 <li>Выбрать из выпадающего списка количество элементов.</li>
+		 <li>Далее появляется не отсортированный массив, что бы его отсортировать его надо нажать на кнопку "Сортировка"</li>
+		 <li>Началась анимированная сортировка</li>
+		</ol>
+		Можно несколько раз изменять значения выпадающего списка и выполнять сортировку.
+	</div>
+	<div class="numberElements">
+		Количество элементов:
+		<select id="slcNumberElements">
+			<option value="0">Выберите количество</option>
+			<option value="1">2 элемент</option>
+			<option value="2">3 элемента</option>
+			<option value="3">4 элемента</option>
+			<option value="4">5 элемента</option>
+			<option value="5">6 элементов</option>
+			<option value="6">7 элементов</option>
+			<option value="7">8 элементов</option>
+			<option value="8">9 элементов</option>
+			<option value="9">10 элементов</option>
+			<option value="10">11 элементов</option>
+			<option value="11">12 элементов</option>
+			<option value="12">13 элементов</option>
+			<option value="13">14 элементов</option>
+			<option value="14">15 элементов</option>
+		</select>
+	</div>
+	<div class="value">
+		<div id="value0" class="valueArr">
+		</div>
+		<div id="value1" class="valueArr">
+		</div>
+		<div id="value2" class="valueArr">
+		</div>
+		<div id="value3" class="valueArr">
+		</div>
+		<div id="value4" class="valueArr">
+		</div>
+		<div id="value5" class="valueArr">
+		</div>
+		<div id="value6" class="valueArr">
+		</div>
+		<div id="value7" class="valueArr">
+		</div>
+		<div id="value8" class="valueArr">
+		</div>
+		<div id="value9" class="valueArr">
+		</div>
+		<div id="value10" class="valueArr">
+		</div>
+		<div id="value11" class="valueArr">
+		</div>
+		<div id="value12" class="valueArr">
+		</div>
+		<div id="value13" class="valueArr">
+		</div>
+		<div id="value14" class="valueArr">
+		</div>
+		<div id="SortArr">
+		 <button id="Sort">Сортировка</button>
+		</div>	
+	</div>
+	<footer class="footer">
+	<a href="https://vk.com/id34404216"><img class ="imgSocial" src="images/vk.png" alt="Вконтакте">
+	<a href="https://www.instagram.com/romavyazov"><img class ="imgSocial" src="images/insta.png"alt="Instagram">
+	<a href="https://www.facebook.com/profile.php?id=100004493917159"><img class ="imgSocial" src="images/facebook.png"alt="Facebook">
+	<p class="footerAuthor">Выполнил работу: Вязов Роман</p>
+	</footer>
+	<script src="script.js"></script>
+ </body>
+</html>

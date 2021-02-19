@@ -1,0 +1,89 @@
+body {
+	font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+	font-size: 11pt; /* Размер основного шрифта в пунктах  */
+	background-color: #f0f0f0; /* Цвет фона веб-страницы */
+	color: green; /* Цвет основного текста */ 
+}
+h1 {
+	color: #a52a2a; /* Цвет заголовка */
+	font-size: 24pt; /* Размер шрифта в пунктах */
+	font-family: Georgia, Times, serif; /* Семейство шрифтов */
+	font-weight: normal; /* Нормальное начертание текста  */
+	text-align: center; /* Выравниванеи текста по центру */
+}
+.Logo{
+
+}
+.job{
+	margin-bottom: 20px; /* Величина отступа от нижнего края */
+	float: left; /* Обтекание по правому краю */
+	padding: 10px; /* Поля вокруг текста */
+	width: 50%; /* Ширина блока */
+	position: absolute; /* Элемент абсолютно позиционирован */
+}
+.instruction{
+	float: left; /* Обтекание по правому краю */
+	background: #fd0; /* Цвет фона */
+	border: 1px solid black; /* Параметры рамки */
+	padding: 10px; /* Поля вокруг текста */
+	position: absolute; /* Элемент абсолютно позиционирован */
+	right: 10px; /* Определяет расстояние от правого края */
+	margin-right: 20px; /* Величина отступа от правого края */
+	width: 40%; /* Ширина блока */
+}
+.numberElements{
+	position: absolute; /* Элемент абсолютно позиционирован */
+	margin-bottom: 20px; /* Величину отступа от нижнего края */
+	top: 650px;	/* Определяет расстояние от верхнего края */
+}
+.value{
+	position: relative; /* Элемент абсолютно позиционирован */
+	top: 700px; /* Определяет расстояние от верхнего края */
+	display: flex; /* Элемент растягивается на всю ширину и имеет свое полное пространство среди окружающих блоков */
+}
+#value div{
+  position: absolute;
+  transition-property: margin-left;
+  transition-duration: 1s;
+  margin-left: 0px;
+}
+.el{
+  transition: font-size 3s, color 2s;
+}
+#SortArr{
+	display: none;  /* Временно удаляет элемент из документа */
+	margin-top: 20px; /* Величину отступа от верхнего края */
+}
+.valueArr{
+	background: #fd0; /* Цвет фона */
+	border: 1px solid black; /* Параметры рамки */
+	padding: 10px; /* Поля вокруг текста */
+	margin-right: 20px; /* Величина отступа от правого края */
+	width: 20px; /* Ширина блока */
+	display: none; /* Временно удаляет элемент из документа */
+}
+.footer {
+  position: absolute; /* Элемент абсолютно позиционирован */
+  left: 0; /* Определяет расстояние от левого края */
+  bottom: 0; /* Определяет расстояние от нижнего края */
+  width: 100%; /* Ширина блока */
+  height: 80px;
+  background-color: #E0FFFF; /* Цвет фона веб-страницы */
+}
+.imgSocial {
+	width: 50px; /* Ширина блока */
+	height: 50px; /* Высота блока */
+	position: relative; /* Элемент устанавливается относительно его исходного места */
+	left: 30px; /* Определяет расстояние от левого края */
+	margin-right: 20px; /* Величина отступа от правого края */
+	margin-top: 15px; /* Величину отступа от верхнего края */
+}
+.footerAuthor{
+	position: absolute; /* Элемент абсолютно позиционирован */
+	right: 30px; /* Определяет расстояние от правого края */
+	top: 3px; /* Определяет расстояние от верхнего края */
+	height: auto; /* Высота блока */
+	color: #E9967A; /* Цвет заголовка */
+	font-size: 18pt; /* Размер шрифта в пунктах */
+	font-family: Georgia, Times, serif; /* Семейство шрифтов */
+}
